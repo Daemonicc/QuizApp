@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="Question1">What is the Capital of Nigeria</string>
+    <string name="question2">What is the capital of Tanzania</string>
+    <string name="question3">What is the capital of Andorra</string>
+    <string name="question4">What is the capital of Spain</string>
+    <string name="question5">What is the capital of Lienchtestein</string>
+    <string name="question6">What is the capital of Sierra leone</string>
+    <string name="question7">Which of the following countries are in Asia</string>
+    <string name="question8">What is the capital of Vanuatu</string>
+    <string name="question9">What is the capital of Lusaka</string>
+</resources>

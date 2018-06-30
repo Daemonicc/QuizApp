@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#3a3994"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:backgroundTint="#cccccc"
+            android:background="@drawable/border">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/Question1"
+                android:textSize="16sp" />
+
+
+            <RadioGroup
+                android:id="@+id/question1_button_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp">
+
+                <RadioButton
+                    android:id="@+id/radio_Lagos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="lagos" />
+
+                <RadioButton
+                    android:id="@+id/radio_Edo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Edo" />
+
+                <RadioButton
+                    android:id="@+id/radio_Abuja"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Abuja" />
+
+                <RadioButton
+                    android:id="@+id/radio_Kogi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kogi" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:backgroundTint="#cccccc"
+            android:background="@drawable/border">
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/question2"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/question2_button_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp">
+
+                <RadioButton
+                    android:id="@+id/radio_Dodoma"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dodoma" />
+
+                <RadioButton
+                    android:id="@+id/radio_Ngerulmud"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ngerulmud" />
+
+                <RadioButton
+                    android:id="@+id/radio_Lilongwe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lilongwe" />
+
+                <RadioButton
+                    android:id="@+id/radio_Tbilisi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tbilisi" />
+            </RadioGroup>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:backgroundTint="#cccccc"
+            android:background="@drawable/border">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/question3"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/question3_button_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp">
+
+                <RadioButton
+                    android:id="@+id/andorra_radio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Andorra la vella" />
+
+                <RadioButton
+                    android:id="@+id/algiers_radio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="algiers" />
+
+                <RadioButton
+                    android:id="@+id/yerevan_radio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="yerevan" />
+
+                <RadioButton
+                    android:id="@+id/congo_radio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Congo" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:backgroundTint="#cccccc"
+            android:background="@drawable/border">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/question4"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/question4_button_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp">
+
+                <RadioButton
+                    android:id="@+id/madrid_radio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Madrid" />
+
+                <RadioButton
+                    android:id="@+id/georgeTown_radio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GeorgeTown" />
+
+                <RadioButton
+                    android:id="@+id/celta_radio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Celta" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yemen" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:backgroundTint="#cccccc"
+            android:background="@drawable/border">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/question5"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/question5_button_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp">
+
+                <RadioButton
+                    android:id="@+id/luxembourg_radio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Luxembourg" />
+
+                <RadioButton
+                    android:id="@+id/vaduz_radio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vaduz" />
+
+                <RadioButton
+                    android:id="@+id/vilnius_radio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vilnius" />
+
+                <RadioButton
+                    android:id="@+id/honiara_radio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Honiara" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:backgroundTint="#cccccc"
+            android:background="@drawable/border">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/question6"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/question6_button_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp">
+
+                <RadioButton
+                    android:id="@+id/freeTown_radio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FreeTown" />
+
+                <RadioButton
+                    android:id="@+id/mbabane_radio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mbabane" />
+
+                <RadioButton
+                    android:id="@+id/bissau_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bissau" />
+
+                <RadioButton
+                    android:id="@+id/nukualofa_radio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nukualofa" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:backgroundTint="#cccccc"
+            android:background="@drawable/border">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/question7"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/china_checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="China" />
+
+            <CheckBox
+                android:id="@+id/usa_checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="USA" />
+
+            <CheckBox
+                android:id="@+id/georgia_checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="Georgia" />
+
+            <CheckBox
+                android:id="@+id/tunisia_checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="Tunisia" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:backgroundTint="#cccccc"
+            android:background="@drawable/border">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/question8"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/vanuatu_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:inputType="textCapWords" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:backgroundTint="#cccccc"
+            android:background="@drawable/border">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/question9"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/question9_button_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp">
+
+                <RadioButton
+                    android:id="@+id/true_radio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="True" />
+
+                <RadioButton
+                    android:id="@+id/false_radio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="False" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="0.5"
+                android:onClick="submit"
+                android:text="Submit" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="0.5"
+                android:onClick="reset"
+                android:text="Reset" />
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="0.3"
+            android:onClick="showAswer"
+            android:text="Show Answer" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+
